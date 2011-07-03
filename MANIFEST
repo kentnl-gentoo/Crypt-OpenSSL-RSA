@@ -9,3 +9,5 @@ typemap
 t/rsa.t
 t/bignum.t
 t/format.t
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)

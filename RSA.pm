@@ -6,11 +6,11 @@ use Carp;
 use vars qw ($VERSION @ISA @EXPORT @EXPORT_OK $AUTOLOAD);
 
 require DynaLoader;
-require AutoLoader;
+use AutoLoader 'AUTOLOAD';
 
 @ISA = qw(DynaLoader);
 
-$VERSION = '0.26';
+$VERSION = '0.27';
 
 bootstrap Crypt::OpenSSL::RSA $VERSION;
 
