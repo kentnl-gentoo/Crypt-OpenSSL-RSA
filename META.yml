@@ -8,7 +8,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 0
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.571, CPAN::Meta::Converter version 2.110930'
+generated_by: 'ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -24,6 +24,7 @@ requires:
   Crypt::OpenSSL::Random: 0
   Test: 0
 resources:
-  homepage: http://wiki.github.com/toddr/Crypt-OpenSSL-RSA
+  homepage: https://metacpan.org/release/Crypt-OpenSSL-RSA
   license: http://dev.perl.org/licenses/
-version: 0.27
+  repository: http://github.com/monken/Crypt-OpenSSL-RSA
+version: 0.28

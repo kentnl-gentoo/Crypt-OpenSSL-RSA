@@ -4,7 +4,7 @@
       "Ian Robertson <iroberts@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.571, CPAN::Meta::Converter version 2.110930",
+   "generated_by" : "ExtUtils::MakeMaker version 6.59, CPAN::Meta::Converter version 2.112150",
    "license" : [
       "perl_5"
    ],
@@ -43,10 +43,13 @@
    },
    "release_status" : "stable",
    "resources" : {
-      "homepage" : "http://wiki.github.com/toddr/Crypt-OpenSSL-RSA",
+      "homepage" : "https://metacpan.org/release/Crypt-OpenSSL-RSA",
       "license" : [
          "http://dev.perl.org/licenses/"
-      ]
+      ],
+      "repository" : {
+         "url" : "http://github.com/monken/Crypt-OpenSSL-RSA"
+      }
    },
-   "version" : "0.27"
+   "version" : "0.28"
 }
