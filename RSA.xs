@@ -47,7 +47,7 @@ void croakSsl(char* p_file, int p_line)
 
 #define THROW(p_result) if (!(p_result)) { error = 1; goto err; }
 
-#if OPENSSL_VERSION_NUMBER < 0x10100000
+#if OPENSSL_VERSION_NUMBER < 0x10100000 || defined(LIBRESSL_VERSION_NUMBER)
 
 static void RSA_get0_key(const RSA *r,
                          const BIGNUM **n, const BIGNUM **e, const BIGNUM **d)
